@@ -15,7 +15,7 @@ module.exports = {
   theme: defaultTheme({
     sidebar: false,
     navbar: false,
-    contributors: false,
+    contributors: true,
   }),
 
   head: [
