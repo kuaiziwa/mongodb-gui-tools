@@ -4,7 +4,7 @@ const { registerComponentsPlugin } = require('@vuepress/plugin-register-componen
 const { defaultTheme } = require('@vuepress/theme-default')
 
 module.exports = {
-  base: '/',
+  base: '/mongodb-gui-tools/',
   title: 'Top MongoDB GUI Tools',
   description: 'Features comparison of the following five MongoDB GUI tools, Compass, Navicat, NoSQLBooster, NoSQLManager and Studio 3T.',
 
