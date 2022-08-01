@@ -1,5 +1,7 @@
 const { path } = require('@vuepress/utils')
 const { registerComponentsPlugin } = require('@vuepress/plugin-register-components')
+const  googleAnalyticsPlugin = require('@vuepress/plugin-google-analytics')
+
 const { defaultTheme } = require('@vuepress/theme-default')
 
 module.exports = {
@@ -11,6 +13,11 @@ module.exports = {
     registerComponentsPlugin({
       componentsDir: path.resolve(__dirname, './components'),
     }),
+    
+    googleAnalyticsPlugin({
+      id: 'G-ZS6PPJJSPF'
+    }),
+
   ],
   theme: defaultTheme({
     sidebar: false,
