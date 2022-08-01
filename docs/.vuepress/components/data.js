@@ -3,7 +3,7 @@ const tp={
     screen:(product, imgSrc)=>`<span data-toggle="tooltip" class="tippy_content_img" data-tippy-content="<div class='tippy-img-container'>
     <img src='${imgSrc}'>
     <h6>${product} Main Interface</h6>
-    </div>">🖵 Screen ▪️</span>`
+    </div>">🖵 Screenshot ▪️</span>`
 
 }
 
