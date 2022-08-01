@@ -1,0 +1,19 @@
+// 
+// @import 'https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700';
+
+// @import 'bootstrap/scss/bootstrap';
+// @import './base.scss';
+
+:root {
+    --content-width: 960px;
+  }
+
+div.tippy-img-container{
+  img{
+    max-width: 700px;
+  }
+  h6{
+    text-align: center;
+    margin-top: 5px !important;
+  }
+}
