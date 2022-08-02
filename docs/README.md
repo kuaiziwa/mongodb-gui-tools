@@ -1,11 +1,11 @@
 ---
 lang: en-US
 author: KuaiZiWa
-title: Feature Comparison
-description: Features comparison of the following five MongoDB GUI tools, Compass, Navicat, NoSQLBooster, NoSQLManager and Studio 3T.
+# title: Feature Comparison for top 5 MongoDB GUI Tools
+description: Feature Comparison of MongoDB GUI tools (Aug 2022)
 ---
 
-# Feature Comparison for MongoDB GUI Tools
+# Feature Comparison of MongoDB GUI tools (Aug 2022)
 
 Here, we will continue to track and examine the following MongoDB GUI tools and compare their features. The products on the list are listed **alphabetically** as follows: [MongoDB Compass](https://www.mongodb.com/products/compass), [Navicat for MongoDB](https://navicat.com/en/products/navicat-for-mongodb), [NoSQLBooster](https://nosqlbooster.com), [NoSQLManager](https://www.mongodbmanager.com) and [Studio 3T](https://studio3t.com).
 
