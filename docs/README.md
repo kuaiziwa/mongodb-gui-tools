@@ -24,6 +24,7 @@ Well, there are a lot of GUI tools for mongoDB, and those on our list need to ha
 - Must be active maintenance products, those that have been officially abandoned or have not been updated for more than a year are not listed here.
 - Must be a downloadable application, which excludes all SaaS products.
 - Must have a feature set that meets the pass line, which can be referred to the product with the least features on our list.
+- Must be a stable release with official version number greater than 1. 0, not beta or alpha
 
 ## References
 
