@@ -1,9 +1,11 @@
 ---
 lang: en-US
+home: false
 author: KuaiZiWa
 # title: Feature Comparison for top 5 MongoDB GUI Tools
-description: Feature Comparison of MongoDB GUI tools
+description: Feature Comparison of MongoDB GUI tools (Aug 2022)
 ---
+[Github](https://github.com/kuaiziwa/mongodb-gui-tools)
 
 # Feature Comparison of MongoDB GUI tools (Aug 2022)
 
@@ -13,7 +15,9 @@ It is important to say that the feature set we have listed is incomplete, and ev
 
 [Why are there no "XXXX" products on this list?](/#why-are-there-no-xxxx-products-on-this-list)
 
-[Click here to view](http://kuaiziwa.github.io/mongodb-gui-tools) feature comparison of top MongoDB GUI tools.
+<div id="matrixContent">
+  <FeatureMatrix/>
+</div>
 
 ## Why are there no "XXXX" products on this list?
 Well, there are a lot of GUI tools for mongoDB, and those on our list need to have the following requirements.
@@ -23,3 +27,13 @@ Well, there are a lot of GUI tools for mongoDB, and those on our list need to ha
 - Must be a downloadable application, which excludes all SaaS products.
 - Must have a feature set that meets the pass line, which can be referred to the product with the least features on our list.
 - Must be a stable release with official version number greater than 1. 0, not beta or alpha
+
+## References
+
+- [MongoDB Compass Documents](https://www.mongodb.com/docs/compass)
+- [Navicat for MongoDB feature matrix](https://navicat.com/en/products/navicat-for-mongodb-feature-matrix) 
+- [NoSQLBooster for MongoDB feature matrix](https://nosqlbooster.com/compareEditions) 
+- [NoSQLManager for MongoDB features](https://www.mongodbmanager.com/mongodb-manager-features) 
+- [Studio 3T features](https://studio3t.com/buy/#studio3t-features) 
+
+[Github](https://github.com/kuaiziwa/mongodb-gui-tools)

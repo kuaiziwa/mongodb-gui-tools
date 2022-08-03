@@ -7,6 +7,8 @@ module.exports = {
   // base: '/mongodb-gui-tools/',
   title: 'mongodb-gui-tools',
   // description: 'Feature Comparison for top MongoDB GUIs (Aug 2002)',
+  pagePatterns: ['**/*.md', '!**/README.md', '!.vuepress', '!node_modules'],
+
 
   plugins: [
     registerComponentsPlugin({
@@ -21,7 +23,7 @@ module.exports = {
   theme: defaultTheme({
     sidebar: false,
     navbar: false,
-    contributors: true,
+    //contributors: true,
   }),
 
   head: [
