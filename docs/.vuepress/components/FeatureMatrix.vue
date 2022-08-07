@@ -77,7 +77,7 @@ let productSortedPositions = sortedProducts.reduce((rst, current) => {
   return rst;
 }, []);
 
-const columns = sortedProducts.map(it => `<a href="${it.site}" target="_blank">${it.name}</a>`);
+const columns = sortedProducts.map(it => `<a href="${it.site}" target="_blank">${it.name} </a>`);
 
 function allAreEqual(array) {
   const result = array.every(element => {
