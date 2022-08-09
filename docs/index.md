@@ -5,7 +5,6 @@ author: KuaiZiWa
 # title: Feature Comparison for top 5 MongoDB GUI Tools
 description: Feature Comparison of MongoDB GUI tools (Aug 2022)
 ---
-[Github](https://github.com/kuaiziwa/mongodb-gui-tools)
 
 # Feature Comparison of MongoDB GUI tools (Aug 2022)
 
@@ -25,8 +24,8 @@ Well, there are a lot of GUI tools for mongoDB, and those on our list need to ha
 - Must be a GUI specifically for MongoDB. MongoDB is a document database, which is very different from a relational database. Many products aimed at relational databases only regard mongoDB as another database compatible with ODBC or JDBC, which is not applicable.
 - Must be active maintenance products, those that have been officially abandoned or have not been updated for more than a year are not listed here.
 - Must be a downloadable application, which excludes all SaaS products.
-- Must have a feature set that meets the pass line, which can be referred to the product with the least features on our list.
 - Must be a stable release with official version number greater than 1. 0, not beta or alpha
+- Must have a feature set that meets the pass line, which can be referred to the product with the least features on our list.
 
 ## References
 
