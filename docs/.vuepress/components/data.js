@@ -19,7 +19,7 @@ export default {
             {
                 name: "Basic and Connection",//
                 rows: [
-                    ["Release", tp.ver("2022.9.2","2022-11-15"),tp.ver("7.1.16","2022-11-11"), tp.ver("1.34.1","2022-11-23"),tp.ver("16.1.4","2022-11-21"),tp.ver("7.0.3","2022-07-05")],
+                    ["Release", tp.ver("2022.10.0","2022-12-07"),tp.ver("8.0.1","2023-01-10"), tp.ver("1.35.0","2023-01-12"),tp.ver("16.1.6","2022-12-12"),tp.ver("7.0.3","2022-07-05")],
                     [{name:"Cost",title:`- Free means that a free version with reduced features is available.\n- Price refers to the price of the most expensive full-featured version.`}, "free-$699/year", "free-$239/license", "free", "$349/license",  "free-$180/license"], 
                     ["Main Interface", 
                          tp.screen("Studio 3T", "https://studio3t.com/wp-content/uploads/2022/03/Studio_3T_Screenshot_Win_Dark.png"),
@@ -29,14 +29,15 @@ export default {
                          tp.screen("NoSQLManager", "https://www.mongodbmanager.com/img/manager.png"),
                         ],
                     ["Operating system", "Windows, Mac, Linux", "Windows, Mac, Linux", "Windows, Mac, Linux", "Windows, Mac, Linux", "Windows"],
-                    ["MongoDB versions", "3.0+", "2.6+", "3.6+", "3.0+", "3.6+"],
+                    ["MongoDB versions", "3.0+", "3.6+", "3.6+", "3.0+", "3.6+"],
+                    ["MongoDB Shell", "bundled mongosh/mongo shell", "embedded mongosh", "bundled mongosh", "embedded mongo shell", "embedded mongo shell"],
                     // ["Development language", "Java", "Node.js+Electron", "Node.js+Electron", "C++",  ".Net"],
                     ["Secure connection: SSH/SSL", true, true, true, true, true], 
                     ["Connection via Proxy", true, false, true, false, false], 
                     [{name: "Readonly mode", title:`The read-only mode of the connection is strictly restricted to read operations, removing all write and delete functions.`},
                          {title:"==Note== Only restrict to add, delete and modify operations of Studio3T UI, but you can still use shell commands to modify data, such as `db.collection.update()`"},
                           {title:`Not only restrict UI operations, but also [work on MongoDB commands](https://www.nosqlbooster.com/features#Read-onlyStatus-Lock) with NoSQLBooster.`, interactive:true},
-                          {title:"Compass provides a special [read-only edition](https://www.mongodb.com/try/download/compass) that can be downloaded", interactive:true},
+                          {title:"==Note== Only restrict to add, delete and modify operations of Compass UI", interactive:true},
                           false, false
                     ],
                     ["Password authentication", true, true, true, true, true],
