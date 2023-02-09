@@ -19,7 +19,7 @@ export default {
             {
                 name: "Basic and Connection",//
                 rows: [
-                    ["Release", tp.ver("2022.10.0","2022-12-07"),tp.ver("8.0.1","2023-01-10"), tp.ver("1.35.0","2023-01-12"),tp.ver("16.1.6","2022-12-12"),tp.ver("7.0.3","2022-07-05")],
+                    ["Release", tp.ver("2022.10.0","2022-12-07"),tp.ver("8.0.2","2023-01-31"), tp.ver("1.35.0","2023-01-12"),tp.ver("16.1.8","2023-02-08"),tp.ver("7.0.3","2022-07-05")],
                     [{name:"Cost",title:`- Free means that a free version with reduced features is available.\n- Price refers to the price of the most expensive full-featured version.`}, "free-$699/year", "free-$239/license", "free", "$349/license",  "free-$180/license"], 
                     ["Main Interface", 
                          tp.screen("Studio 3T", "https://studio3t.com/wp-content/uploads/2022/03/Studio_3T_Screenshot_Win_Dark.png"),
