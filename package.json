@@ -1,6 +1,6 @@
 {
   "name": "mongodb-gui-feature-matrix",
-  "version": "1.0.0",
+  "version": "1.0.12",
   "main": "index.js",
   "scripts": {
     "docs:dev": "vuepress dev docs",
