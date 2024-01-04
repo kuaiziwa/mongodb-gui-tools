@@ -19,7 +19,8 @@ export default {
             {
                 name: "Basic and Connection",//
                 rows: [
-                    ["Release", tp.ver("2023.9.0","2023-11-28"),tp.ver("8.1.4","2023-12-01"), tp.ver("1.40.4","2023-10-18"),tp.ver("16.3.2","2023-11-07"),tp.ver("7.2","2023-08-28")],
+                               //studio3t                                                     compass                       navicat                       sqlmanager
+                    ["Release", tp.ver("2023.9.1","2023-12-11"),tp.ver("8.1.6","2024-01-02"), tp.ver("1.41.0","2023-12-18"),tp.ver("16.3.3","2023-12-05"),tp.ver("7.2","2023-08-28")],
                     [{name:"Cost",title:`- Free means that a free version with reduced features is available.\n- Price refers to the price of the most expensive full-featured version.`}, "free-$699/year", "free-$239/license", "free", "$349/license",  "free-$180/license"], 
                     ["Main Interface", 
                          tp.screen("Studio 3T", "https://studio3t.com/wp-content/uploads/2022/03/Studio_3T_Screenshot_Win_Dark.png"),
@@ -245,6 +246,7 @@ true, false],
                     ["Multi-Language support", false, false, false, true, false],
                     ["Customize keyboard shortcuts", true, false, false, false, false],
                     [{name:"Collaboration", title:"Store your files in cloud to start collaboration with your team members."}, {title:"[Click here to view](https://studio3t.com/team-sharing/) Studio 3T's Team Sharing features.", interactive:true}, false, false, {title:"[Click here to view](https://www.navicat.com/en/products#navicat-collaboration) Navicat's collaboration features.", interactive:true}, false],
+                    ["AI Helper", {title:"[Click here to view](https://studio3t.com/ai-helper-the-first-natural-language-query-tool-for-mongodb/) Studio 3T's AI helper feature.", interactive:true}, false, false, false, false],
                     [{name:"Save/restore session", title:"The session restore feature saves information about all open tabs before closing the app and automatically opens previously open tabs so that users can resume work where they left off."}, true, true, false, false, false],
                     ["In-App tutorials", false, {title:"[Click here to view](https://nosqlbooster.com/features#LearnMongoDBwithFreeInteractiveSamples) a screenshot of an interactive sample of NoSQLBooster.", interactive:true}, false, false, false],
                     // [{name: "History log", title:"History logs provide a history of operations and can help diagnose errors."}, false, true, true, true, false],
