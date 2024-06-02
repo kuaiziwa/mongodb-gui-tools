@@ -20,7 +20,7 @@ export default {
                 name: "Basic and Connection",//
                 rows: [
                                //studio3t                       //nosqlbooster                compass                       navicat                       sqlmanager
-                    ["Release", tp.ver("2024.2.0","2024-03-13"),tp.ver("8.1.9","2024-04-22"), tp.ver("1.43.0","2024-05-02"),tp.ver("16.3.9","2024-04-16"),tp.ver("7.3.1","2024-03-26")],
+                    ["Release", tp.ver("2024.3.0","2024-05-16"),tp.ver("8.1.9","2024-04-22"), tp.ver("1.43.0","2024-05-02"),tp.ver("17.0.4","2024-05-27"),tp.ver("7.3.1","2024-05-26")],
                     [{name:"Cost",title:`- Free means that a free version with reduced features is available.\n- Price refers to the price of the most expensive full-featured version.`}, "free-$699/year", "free-$239/license", "free", "$349/license",  "free-$180/license"], 
                     ["Main Interface", 
                          tp.screen("Studio 3T", "https://studio3t.com/wp-content/uploads/2022/03/Studio_3T_Screenshot_Win_Dark.png"),
@@ -247,6 +247,8 @@ true, false],
                     ["Customize keyboard shortcuts", true, false, false, false, false],
                     [{name:"Collaboration", title:"Store your files in cloud to start collaboration with your team members."}, {title:"[Click here to view](https://studio3t.com/team-sharing/) Studio 3T's Team Sharing features.", interactive:true}, false, false, {title:"[Click here to view](https://www.navicat.com/en/products#navicat-collaboration) Navicat's collaboration features.", interactive:true}, false],
                     ["AI Helper", {title:"[Click here to view](https://studio3t.com/ai-helper-the-first-natural-language-query-tool-for-mongodb/) Studio 3T's AI helper feature.", interactive:true}, false, false, false, false],
+                    ["BI tool", false, false, false, {title:"[Click here to view](https://www.navicat.com/images/product_screenshot/Screenshot_Navicat_17_Windows_BI.png) Navicat's BI tool.", interactive:true}, false],
+                    ["Modeling tool", false, false, false, {title:"[Click here to view](https://www.navicat.com/images/product_screenshot/Screenshot_Navicat_17_Premium_Windows_Modeling.png) Navicat's modeling tool.", interactive:true}, false],
                     [{name:"Save/restore session", title:"The session restore feature saves information about all open tabs before closing the app and automatically opens previously open tabs so that users can resume work where they left off."}, true, true, false, false, false],
                     ["In-App tutorials", false, {title:"[Click here to view](https://nosqlbooster.com/features#LearnMongoDBwithFreeInteractiveSamples) a screenshot of an interactive sample of NoSQLBooster.", interactive:true}, false, false, false],
                     // [{name: "History log", title:"History logs provide a history of operations and can help diagnose errors."}, false, true, true, true, false],
