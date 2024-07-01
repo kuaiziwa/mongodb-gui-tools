@@ -20,7 +20,7 @@ export default {
                 name: "Basic and Connection",//
                 rows: [
                                //studio3t                       //nosqlbooster                compass                       navicat                       sqlmanager
-                    ["Release", tp.ver("2024.3.0","2024-05-16"),tp.ver("8.1.9","2024-04-22"), tp.ver("1.43.0","2024-05-02"),tp.ver("17.0.4","2024-05-27"),tp.ver("7.3.1","2024-05-26")],
+                    ["Release", tp.ver("2024.3.1","2024-06-10"),tp.ver("9.0.0","2024-06-29"), tp.ver("1.43.3","2024-07-01"),tp.ver("17.0.8","2024-06-19"),tp.ver("7.3.3","2024-06-29")],
                     [{name:"Cost",title:`- Free means that a free version with reduced features is available.\n- Price refers to the price of the most expensive full-featured version.`}, "free-$699/year", "free-$239/license", "free", "$349/license",  "free-$180/license"], 
                     ["Main Interface", 
                          tp.screen("Studio 3T", "https://studio3t.com/wp-content/uploads/2022/03/Studio_3T_Screenshot_Win_Dark.png"),
@@ -35,6 +35,7 @@ export default {
                     // ["Development language", "Java", "Node.js+Electron", "Node.js+Electron", "C++",  ".Net"],
                     ["Secure connection: SSH/SSL", true, true, true, true, true], 
                     ["Connection via Proxy", true, false, true, false, false], 
+                    ["In-Use Encryption Connection", false, true, true, false, false], 
                     [{name: "Readonly mode", title:`The read-only mode of the connection is strictly restricted to read operations, removing all write and delete functions.`},
                          {title:"==Note== Only restrict to add, delete and modify operations of Studio3T UI, but you can still use shell commands to modify data, such as `db.collection.update()`"},
                           {title:`Not only restrict UI operations, but also [work on MongoDB commands](https://www.nosqlbooster.com/features#Read-onlyStatus-Lock) with NoSQLBooster.`, interactive:true},
@@ -244,7 +245,7 @@ true, false],
                     ["Auto update", true, true, true, true, true],
                     ["Dark theme", true, true, true, true, true],
                     ["Multi-Language support", false, false, false, true, false],
-                    ["Customize keyboard shortcuts", true, false, false, false, false],
+                    ["Customize keyboard shortcuts", true, true, false, false, false],
                     [{name:"Collaboration", title:"Store your files in cloud to start collaboration with your team members."}, {title:"[Click here to view](https://studio3t.com/team-sharing/) Studio 3T's Team Sharing features.", interactive:true}, false, false, {title:"[Click here to view](https://www.navicat.com/en/products#navicat-collaboration) Navicat's collaboration features.", interactive:true}, false],
                     ["AI Helper", {title:"[Click here to view](https://studio3t.com/ai-helper-the-first-natural-language-query-tool-for-mongodb/) Studio 3T's AI helper feature.", interactive:true}, false, false, false, false],
                     ["BI tool", false, false, false, {title:"[Click here to view](https://www.navicat.com/images/product_screenshot/Screenshot_Navicat_17_Windows_BI.png) Navicat's BI tool.", interactive:true}, false],
