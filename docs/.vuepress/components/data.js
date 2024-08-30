@@ -20,7 +20,7 @@ export default {
                 name: "Basic and Connection",//
                 rows: [
                                //studio3t                       //nosqlbooster                compass                       navicat                       sqlmanager
-                    ["Release", tp.ver("2024.3.1","2024-06-10"),tp.ver("9.0.1","2024-08-05"), tp.ver("1.43.5","2024-08-01"),tp.ver("17.0.12","2024-07-10"),tp.ver("7.3.3","2024-06-29")],
+                    ["Release", tp.ver("2024.3.1","2024-06-10"),tp.ver("9.0.5","2024-08-26"), tp.ver("1.43.6","2024-08-23"),tp.ver("17.1.0","2024-08-20"),tp.ver("7.3.3","2024-06-29")],
                     [{name:"Cost",title:`- Free means that a free version with reduced features is available.\n- Price refers to the price of the most expensive full-featured version.`}, "free-$699/year", "free-$239/license", "free", "$349/license",  "free-$180/license"], 
                     ["Main Interface", 
                          tp.screen("Studio 3T", "https://studio3t.com/wp-content/uploads/2022/03/Studio_3T_Screenshot_Win_Dark.png"),
@@ -155,7 +155,7 @@ true, false],
                     // ["Copy & Paste Collections", true, true],
 
                     // [{name: "Switch RS Member within the editor", title:""}, false, true, false, false, false],
-                    [{name: "Visual Explain (query performance)", title:`Visual Explain transforms \`explain command\` output into a hierarchical view of the query plan, which is easier to read and understand, allowing for query tuning to enhance query and resolve performance issues.`}, true, true, true, false, false],
+                    [{name: "Visual Explain (query performance)", title:`Visual Explain transforms \`explain command\` output into a hierarchical view of the query plan, which is easier to read and understand, allowing for query tuning to enhance query and resolve performance issues.`}, true, true, true, true, false],
                     
 
                     // ["Test Data Generator", false, true],
