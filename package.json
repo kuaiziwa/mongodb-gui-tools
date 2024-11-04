@@ -3,7 +3,7 @@
   "version": "1.0.14",
   "main": "index.js",
   "scripts": {
-    "start":"npm run docs:dev",
+    "start": "npm run docs:dev",
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs"
   },

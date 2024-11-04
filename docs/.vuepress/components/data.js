@@ -20,7 +20,7 @@ export default {
                 name: "Basic and Connection",//
                 rows: [
                                //studio3t                       //nosqlbooster                compass                       navicat                       sqlmanager
-                    ["Release", tp.ver("2024.4.0","2024-09-30"),tp.ver("9.0.6","2024-09-30"), tp.ver("1.44.4","2024-09-18"),tp.ver("17.1.3","2024-09-27"),tp.ver("7.3.3","2024-06-29")],
+                    ["Release", tp.ver("2024.4.1","2024-09-30"),tp.ver("9.1.0","2024-10-28"), tp.ver("1.44.6","2024-10-31"),tp.ver("17.1.9","2024-11-04"),tp.ver("7.5.1","2024-10-24")],
                     [{name:"Cost",title:`- Free means that a free version with reduced features is available.\n- Price refers to the price of the most expensive full-featured version.`}, "free-$699/year", "free-$239/license", "free", "$349/license",  "free-$180/license"], 
                     ["Main Interface", 
                          tp.screen("Studio 3T", "https://studio3t.com/wp-content/uploads/2022/03/Studio_3T_Screenshot_Win_Dark.png"),
@@ -30,7 +30,7 @@ export default {
                          tp.screen("NoSQLManager", "https://www.mongodbmanager.com/img/manager.png"),
                         ],
                     ["Operating system", "Windows, Mac, Linux", "Windows, Mac, Linux", "Windows, Mac, Linux", "Windows, Mac, Linux", "Windows"],
-                    ["MongoDB versions", "3.0+", "3.6+", "3.6+", "3.0+", "3.6+"],
+                    ["MongoDB versions", "3.6+", "3.6+", "3.6+", "3.0+", "3.6+"],
                     ["MongoDB Shell", "bundled mongosh/mongo shell", "embedded mongosh", "bundled mongosh", "embedded mongo shell", "embedded mongo shell"],
                     // ["Development language", "Java", "Node.js+Electron", "Node.js+Electron", "C++",  ".Net"],
                     ["Secure connection: SSH/SSL", true, true, true, true, true], 
