@@ -6,7 +6,7 @@ const { defaultTheme } = require('@vuepress/theme-default')
 module.exports = {
   // base: '/mongodb-gui-tools/',
   title: 'Top MongoDB GUI Tools',
-  description: 'Feature Comparison for top MongoDB GUIs (June 2025)',
+  description: 'Feature Comparison for top MongoDB GUIs (July 2025)',
   pagePatterns: ['**/*.md', '!**/README.md', '!.vuepress', '!node_modules'],
 
 
