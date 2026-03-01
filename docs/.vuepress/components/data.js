@@ -20,7 +20,7 @@ export default {
                 name: "Basic and Connection",//
                 rows: [
                                //studio3t                       //nosqlbooster                compass                       navicat                       sqlmanager
-                    ["Release", tp.ver("2026.1.0","2026-01-19"),tp.ver("10.1.1","2025-12-27"), tp.ver("1.49.1","2026-01-27"),tp.ver("17.3.8","2026-01-13"),tp.ver("7.8.1","2026-01-06")],
+                    ["Release", tp.ver("2026.4.0","2026-02-25"),tp.ver("10.1.3","2026-02-15"), tp.ver("1.49.2","2026-02-25"),tp.ver("17.3.9","2026-02-03"),tp.ver("7.8.1","2026-01-06")],
                     [{name:"Cost",title:`- Free means that a free version with reduced features is available.\n- Price refers to the price of the most expensive full-featured version.`}, "free-$699/year", "free-$239/license", "free", "$449/license",  "free-$125/license"], 
                     ["Main Interface", 
                          tp.screen("Studio 3T", "https://studio3t.com/wp-content/uploads/2022/03/Studio_3T_Screenshot_Win_Dark.png"),
