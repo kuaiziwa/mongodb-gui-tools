@@ -1,6 +1,6 @@
 {
   "name": "mongodb-gui-feature-matrix",
-  "version": "1.0.16",
+  "version": "1.0.17",
   "main": "index.js",
   "scripts": {
     "start": "npm run docs:dev",
