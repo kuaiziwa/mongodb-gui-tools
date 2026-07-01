@@ -24,7 +24,9 @@ Perform a monthly refresh of version numbers, release dates, and month labels ac
 - [ ] Step 2: Fetch latest versions for all 5 tools
 - [ ] Step 3: Update data.js Release row
 - [ ] Step 4: Replace month names in md + config.js
-- [ ] Step 5: Commit all changes
+- [ ] Step 5: List update details for non-NoSQLBooster products
+- [ ] Step 6: Present summary and pause for user confirmation
+- [ ] Step 7: Commit and push (only after user confirms)
 ```
 
 ---
@@ -91,26 +93,42 @@ Also replace `{{CURRENT_MONTH_ZH}}` → `{{TARGET_MONTH_ZH}}` if any Chinese mon
 
 ---
 
-## Step 5: Commit Changes
+## Step 5: List Update Details (Non-NoSQLBooster)
 
-Use the Windows-safe git pattern (avoids path-parsing errors in Git Bash):
+After updating files, compile and present the **update details** for the following 4 products (exclude NoSQLBooster):
 
-```bash
-# Stage all changed files
-git -C "WORKSPACE_ROOT" add "docs/README.md" "docs/index.md" "docs/.vuepress/config.js" "docs/.vuepress/components/data.js"
+- **Studio 3T**
+- **Compass**
+- **Navicat**
+- **NoSQLManager**
 
-# Commit
-git -C "WORKSPACE_ROOT" commit -m "Update feature matrix: versions and month to {{TARGET_MONTH_EN}} YYYY"
+For each product, list:
+- Version change: `old → new`
+- Release date
+- 2–3 key new features or bug fixes (from changelog/release notes fetched in Step 2)
+
+Output format:
+
 ```
+## Studio 3T — OLD → NEW (DATE)
+- feature 1
+- feature 2
 
-> **Windows pitfall**: Never use `cd "path" && git add ...` with unquoted mixed paths.  
-> Always use `git -C "absolute_path"` with each file path in double quotes.
+## Compass — OLD → NEW (DATE)
+- ...
+
+## Navicat — OLD → NEW (DATE)
+- ...
+
+## NoSQLManager — OLD → NEW (DATE)
+- ...
+```
 
 ---
 
-## Summary Output
+## Step 6: Present Summary and Pause
 
-After committing, print a summary table for the user:
+Print a version summary table for **all 5 tools**:
 
 | Tool | Old Version | New Version | Release Date |
 |------|------------|------------|--------------|
@@ -120,4 +138,31 @@ After committing, print a summary table for the user:
 | Navicat | ... | ... | YYYY-MM-DD |
 | NoSQLManager | ... | ... | YYYY-MM-DD |
 
-Include a brief bullet list of the most notable new features per tool (2–3 bullets max).
+**⚠️ STOP HERE — Do NOT commit or push.**
+
+Ask the user to confirm:
+> "所有文件已更新完毕，请确认是否可以提交（commit + push）？"
+
+Wait for user's explicit confirmation before proceeding to Step 7.
+
+---
+
+## Step 7: Commit and Push (After User Confirms)
+
+> Only execute this step after the user explicitly confirms.
+
+Use the Windows-safe git pattern (avoids path-parsing errors in Git Bash):
+
+```bash
+# Stage all changed files
+git -C "WORKSPACE_ROOT" add "docs/README.md" "docs/index.md" "docs/.vuepress/config.js" "docs/.vuepress/components/data.js"
+
+# Commit
+git -C "WORKSPACE_ROOT" commit -m "Update feature matrix to {{TARGET_MONTH_EN}} YYYY: [list updated tools]"
+
+# Push
+git -C "WORKSPACE_ROOT" push origin main
+```
+
+> **Windows pitfall**: Never use `cd "path" && git add ...` with unquoted mixed paths.  
+> Always use `git -C "absolute_path"` with each file path in double quotes.
