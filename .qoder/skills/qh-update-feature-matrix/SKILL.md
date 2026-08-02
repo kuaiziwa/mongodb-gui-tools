@@ -1,5 +1,5 @@
 ---
-name: update-feature-matrix
+name: qh-update-feature-matrix
 description: Monthly update of MongoDB GUI Feature Comparison matrix — fetches latest version numbers and release dates for Studio 3T, NoSQLBooster, Compass, Navicat, and NoSQLManager, updates data.js and all month references across docs. Use when the user asks to refresh version data, perform a monthly update, or update the feature comparison matrix.
 ---
 
